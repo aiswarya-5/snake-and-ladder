@@ -134,7 +134,12 @@ body {
 	height: 100%;
 	width: 100%;
 }
-
+#snakeMsg{
+	position: absolute;
+    	top: 55%;
+    	left: 10%;
+	padding: 13px;
+}
 
 
 
