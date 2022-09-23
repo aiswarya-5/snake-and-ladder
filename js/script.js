@@ -22,7 +22,8 @@ function play() {
 				document.getElementById((previousFirst).toString()).style.color = "#000";
 			}
 		}
-		document.getElementById((previousFirst + random_no + 1).toString()).innerHTML = "<i class='fas fa-chess-pawn'></i>";
+		document.getElementById((previousFirst + random_no + 1).toString()).innerHTML ="<i class='material-icons player'>person</i>";
+
 		document.getElementById((previousFirst + random_no + 1).toString()).style.color = "#f00";
 		if ((previousFirst + random_no + 1) == 100) {
 			setTimeout(() => {
@@ -47,7 +48,7 @@ function play() {
 				document.getElementById((previousSec).toString()).style.color = "#000";
 			}
 		}
-		document.getElementById((previousSec + random_no + 1).toString()).innerHTML = "<i class='fas fa-chess-pawn'></i>";
+		document.getElementById((previousSec + random_no + 1).toString()).innerHTML = "<i class='material-icons'>person</i>";
 		document.getElementById((previousSec + random_no + 1).toString()).style.color = "#00f";
 		if ((previousSec + random_no + 1) == 100) {
 			setTimeout(() => {
@@ -72,38 +73,38 @@ function snake(place_no, color_given, previous_player) {
 	if (place_no == 26) {
 		document.getElementById("26").innerHTML = 26;
 		document.getElementById("26").style.color = "#000";
-		document.getElementById("4").innerHTML = "<i class='fas fa-chess-pawn'></i>";
+		document.getElementById("4").innerHTML = "<i class='material-icons'>person</i>";
 		document.getElementById("4").style.color = color_given;
 		return 4;
 
 	} else if (place_no == 94) {
 		document.getElementById("94").innerHTML = 94;
 		document.getElementById("94").style.color = "#000";
-		document.getElementById("18").innerHTML = "<i class='fas fa-chess-pawn'></i>";
+		document.getElementById("18").innerHTML = "<i class='material-icons'>person</i>";
 		document.getElementById("18").style.color = color_given;
 		return 18;
 	} else if (place_no == 63) {
 		document.getElementById("63").innerHTML = 63;
 		document.getElementById("63").style.color = "#000";
-		document.getElementById("21").innerHTML = "<i class='fas fa-chess-pawn';></i>";
+		document.getElementById("21").innerHTML = "<i class='material-icons'>person</i>";
 		document.getElementById("21").style.color = color_given;
 		return 21;
 	} else if (place_no == 80) {
 		document.getElementById("80").innerHTML = 80;
 		document.getElementById("80").style.color = "#000";
-		document.getElementById("58").innerHTML = "<i class='fas fa-chess-pawn'></i>";
+		document.getElementById("58").innerHTML = "<i class='material-icons'>person</i>";
 		document.getElementById("58").style.color = color_given;
 		return 58;
 	} else if (place_no == 73) {
 		document.getElementById("73").innerHTML = 73;
 		document.getElementById("73").style.color = "#000";
-		document.getElementById("50").innerHTML = "<i class='fas fa-chess-pawn'></i>";
+		document.getElementById("50").innerHTML = "<i class='material-icons'>person</i>";
 		document.getElementById("50").style.color = color_given;
 		return 50;
 	} else if (place_no == 98) {
 		document.getElementById("98").innerHTML = 98;
 		document.getElementById("98").style.color = "#000";
-		document.getElementById("29").innerHTML = "<i class='fas fa-chess-pawn'></i>";
+		document.getElementById("29").innerHTML = "<i class='material-icons'>person</i>";
 		document.getElementById("29").style.color = color_given;
 		return 29;
 	} else {
@@ -118,31 +119,31 @@ function ladder(place_no, color_given, previous_player) {
 	if (place_no == 3) {
 		document.getElementById("3").innerHTML = 3;
 		document.getElementById("3").style.color = "#000";
-		document.getElementById("24").innerHTML = "<i class='fas fa-chess-pawn'></i>";
+		document.getElementById("24").innerHTML = "<i class='material-icons'>person</i>";
 		document.getElementById("24").style.color = color_given;
 		return 24;
 	} else if (place_no == 13) {
 		document.getElementById("13").innerHTML = 13;
 		document.getElementById("13").style.color = "#000";
-		document.getElementById("95").innerHTML = "<i class='fas fa-chess-pawn'></i>";
+		document.getElementById("95").innerHTML = "<i class='material-icons'>person</i>";
 		document.getElementById("95").style.color = color_given;
 		return 95;
 	} else if (place_no == 12) {
 		document.getElementById("12").innerHTML = 12;
 		document.getElementById("12").style.color = "#000";
-		document.getElementById("52").innerHTML = "<i class='fas fa-chess-pawn'></i>";
+		document.getElementById("52").innerHTML = "<i class='material-icons'>person</i>";
 		document.getElementById("52").style.color = color_given;
 		return 52;
 	} else if (place_no == 61) {
 		document.getElementById("61").innerHTML = 61;
 		document.getElementById("61").style.color = "#000";
-		document.getElementById("99").innerHTML = "<i class='fas fa-chess-pawn'></i>";
+		document.getElementById("99").innerHTML = "<i class='material-icons'>person</i>";
 		document.getElementById("99").style.color = color_given;
 		return 99;
 	} else if (place_no == 72) {
 		document.getElementById("72").innerHTML = 72;
 		document.getElementById("72").style.color = "#000";
-		document.getElementById("91").innerHTML = "<i class='fas fa-chess-pawn'></i>";
+		document.getElementById("91").innerHTML = "<i class='material-icons'>person</i>";
 		document.getElementById("91").style.color = color_given;
 		return 91;
 	} else {
